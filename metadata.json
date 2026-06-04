@@ -1,0 +1,6 @@
+{
+  "name": "Kothari Dental",
+  "description": "Kothari Dental Clinic - Expert dental treatment with modern technology, painless procedures, and refined hospitality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
