@@ -10,6 +10,8 @@ import {
 } from "lucide-react";
 import { motion } from "motion/react";
 import { SERVICES, DOCTORS, TESTIMONIALS } from "../data";
+import receptionImg from "../assets/images/lumina_dental_clinical_reception_1780579924923.png";
+import smileImg from "../assets/images/radiant_smile_makeover_1780579943868.png";
 
 interface HomeViewProps {
   setActiveTab: (tab: string) => void;
@@ -230,7 +232,7 @@ export default function HomeView({
                 {/* 1. Main Reception Image */}
                 <div className="rounded-[32px] overflow-hidden shadow-2xl border-4 border-white aspect-[4/3] relative z-10 bg-slate-100">
                   <img
-                    src="/src/assets/images/lumina_dental_clinical_reception_1780579924923.png"
+                    src={receptionImg}
                     alt="Kothari Dental Wellness Lobby"
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
@@ -247,7 +249,7 @@ export default function HomeView({
                 {/* 2. Overlaid Patient Smile Image */}
                 <div className="absolute -bottom-8 -left-10 lg:-left-12 w-48 sm:w-56 rounded-3xl overflow-hidden shadow-xl border-4 border-white aspect-square z-20 hidden sm:block animate-float bg-slate-100">
                   <img
-                    src="/src/assets/images/radiant_smile_makeover_1780579943868.png"
+                    src={smileImg}
                     alt="Radiant Smile Patient Portrait"
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
@@ -325,7 +327,7 @@ export default function HomeView({
                 {/* BEFORE Image wrapper (Always full width background with custom distortion filter) */}
                 <div className="absolute inset-0 z-0">
                   <img
-                    src="/src/assets/images/radiant_smile_makeover_1780579943868.png"
+                    src={smileImg}
                     alt="Before Treatment Smile"
                     className={`w-full h-full object-cover ${compareCases[activeCase].beforeClass}`}
                   />
@@ -340,7 +342,7 @@ export default function HomeView({
                   style={{ clipPath: `polygon(0 0, ${sliderPos}% 0, ${sliderPos}% 100%, 0 100%)` }}
                 >
                   <img
-                    src="/src/assets/images/radiant_smile_makeover_1780579943868.png"
+                    src={smileImg}
                     alt="After Treatment Perfect Restored Smile"
                     className={`w-full h-full object-cover ${compareCases[activeCase].afterClass}`}
                   />

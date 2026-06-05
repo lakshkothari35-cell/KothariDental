@@ -5,6 +5,12 @@
 
 import { Doctor, Service, Testimonial } from "./types";
 
+import drAnjali from "./assets/images/dr_anjali_sharma_1780666279397.png";
+import drVikram from "./assets/images/dr_vikram_malhotra_1780666297392.png";
+import drPriyanka from "./assets/images/dr_priyanka_nair_1780666310721.png";
+import drAmit from "./assets/images/dr_amit_kothari_1780666325748.png";
+import drRajesh from "./assets/images/dr_rajesh_iyer_1780666339755.png";
+
 export const SERVICES: Service[] = [
   {
     id: "clean",
@@ -87,7 +93,7 @@ export const DOCTORS: Doctor[] = [
     degrees: "MDS (Orthodontics) — AIIMS New Delhi",
     title: "Chief Cosmetic Dentist",
     specialties: ["Cosmetic Dentistry", "Veneers & Smile Design"],
-    image: "/src/assets/images/dr_anjali_sharma_1780666279397.png",
+    image: drAnjali,
     experience: "15+ Years Experience",
     schedule: "MON - THU: 9AM - 5PM",
     satisfaction: "99% Patient Satisfaction"
@@ -98,7 +104,7 @@ export const DOCTORS: Doctor[] = [
     degrees: "MDS, Ph.D. — King George's Medical University",
     title: "Senior Orthodontist Specialist",
     specialties: ["Orthodontics", "Invisalign® Aligners"],
-    image: "/src/assets/images/dr_vikram_malhotra_1780666297392.png",
+    image: drVikram,
     experience: "12+ Years Experience",
     schedule: "TUE - FRI: 10AM - 6PM",
     satisfaction: "96% Align Perfect Rate"
@@ -109,7 +115,7 @@ export const DOCTORS: Doctor[] = [
     degrees: "MDS — Maulana Azad Dental College, New Delhi",
     title: "Maxillofacial Surgeon",
     specialties: ["Implantology", "Oral & Reconstruction Surgery"],
-    image: "/src/assets/images/dr_priyanka_nair_1780666310721.png",
+    image: drPriyanka,
     experience: "18+ Years Experience",
     schedule: "MON - WED: 8AM - 4PM",
     satisfaction: "99.4% Flawless Record"
@@ -120,7 +126,7 @@ export const DOCTORS: Doctor[] = [
     degrees: "MDS — Manipal College of Dental Sciences",
     title: "Chief Prosthodontic Surgeon",
     specialties: ["Premium Implants", "Full Mouth Smile Reconstruction"],
-    image: "/src/assets/images/dr_amit_kothari_1780666325748.png",
+    image: drAmit,
     experience: "20+ Years Experience",
     schedule: "MON - FRI: 9AM - 6PM",
     satisfaction: "98% SATISFACTION"
@@ -131,7 +137,7 @@ export const DOCTORS: Doctor[] = [
     degrees: "MDS — Government Dental College & Hospital, Mumbai",
     title: "Senior Pediatric Consultant",
     specialties: ["Aligners & Braces", "Preventive Pediatric Care"],
-    image: "/src/assets/images/dr_rajesh_iyer_1780666339755.png",
+    image: drRajesh,
     experience: "14+ Years Experience",
     schedule: "TUE - SAT: 10AM - 5PM",
     satisfaction: "HIGHLY RATED"
