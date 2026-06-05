@@ -53,12 +53,12 @@ export default function Footer({ setActiveTab, openEmergencyModal, startNewBooki
             </p>
             <div className="space-y-2 pt-2">
               <div className="flex items-center gap-2.5 text-xs text-slate-400">
-                <Navigation className="w-4 h-4 text-sky-400" />
-                <span>450 Medical Heights Plaza, Suite 300, NY</span>
+                <Navigation className="w-4 h-4 text-sky-400 hover:scale-110 transition-transform" />
+                <span>Kothari Medical Arcade, Linking Road, Bandra West, Mumbai, MH - 400050</span>
               </div>
               <div className="flex items-center gap-2.5 text-xs text-slate-400">
-                <Phone className="w-4 h-4 text-sky-400" />
-                <span>+1 (800) 555-0192 (Free Intake)</span>
+                <Phone className="w-4 h-4 text-sky-400 hover:scale-110 transition-transform" />
+                <span>+91 22 6125 7800 (Helpline)</span>
               </div>
             </div>
           </div>

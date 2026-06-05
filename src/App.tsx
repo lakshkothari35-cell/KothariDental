@@ -74,7 +74,7 @@ export default function App() {
     experienceCount: "15",
     patientCount: "4200",
     satisfactionRate: "99",
-    phone: "+1 (800) 555-0192"
+    phone: "+91 22 6125 7800"
   });
 
   // Clinic working hours state
@@ -132,7 +132,7 @@ export default function App() {
         {
           id: "LUM-984712",
           fullName: "Charles Xavier",
-          phone: "+1 (555) 481-9925",
+          phone: "+91 98200 88776",
           email: "professor-x@egfaculty.org",
           serviceId: "whitening",
           doctorId: "jenkins",
@@ -145,7 +145,7 @@ export default function App() {
         {
           id: "LUM-472013",
           fullName: "Amanda Waller",
-          phone: "+1 (202) 555-0143",
+          phone: "+91 91100 44332",
           email: "waller@argus.gov",
           serviceId: "implants",
           doctorId: "kothari",
@@ -707,7 +707,7 @@ export default function App() {
                       <input
                         type="tel"
                         required
-                        placeholder="e.g. +1 (555) 0192"
+                        placeholder="e.g. +91 98200 12345"
                         value={emergencyPhone}
                         onChange={(e) => setEmergencyPhone(e.target.value)}
                         className="w-full bg-slate-50 border border-slate-150 focus:bg-white focus:border-rose-500 focus:ring-1 focus:ring-rose-500 rounded-xl px-4 py-3 text-xs placeholder-gray-400 font-semibold focus:outline-none transition-all"

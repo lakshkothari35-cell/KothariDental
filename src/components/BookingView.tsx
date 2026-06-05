@@ -455,7 +455,7 @@ export default function BookingView({
                       <input
                         type="tel"
                         required
-                        placeholder="e.g. +1 (555) 019-2834"
+                        placeholder="e.g. +91 98200 12345"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
                         className="w-full bg-slate-50/50 border border-gray-150 focus:bg-white focus:border-sky-500 focus:ring-1 focus:ring-sky-500 rounded-xl px-4 py-3 text-xs placeholder-gray-400 font-semibold focus:outline-none transition-all"
